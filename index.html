@@ -15,6 +15,22 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
+<style>
+    .rotate {
+        animation: rotation 8s infinite linear;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(359deg);
+        }
+    }
+</style>
+
 <body>
     <ul>
         <li>Chettos</li>
@@ -35,7 +51,7 @@
             >>>>>>> 4ace4377f0bc6ff4ed67813f95cece39682b136d
             =======
             <img src="https://www.alohacriticon.com/wp-content/uploads/2017/03/morgan-freeman-foto-biografia.jpg"
-                style="animation: rotation 8s infinite linear;" />
+                class="rotate" />
             <li>Misa</li>
 
             <p>Cinthya</p>
